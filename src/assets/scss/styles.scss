@@ -1,0 +1,20 @@
+@import './mixins/font-face.scss';
+@import './variables.scss';
+
+@include font-face('Source Sans Pro', 'SourceSansPro-Regular', '400', 'normal');
+
+*, ::before, ::after {
+  box-sizing: border-box;
+}
+
+html {
+  margin: 0;
+  padding: 0;
+  font-size: 16px;
+  font-family: $font-face;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+}
