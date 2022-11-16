@@ -7,7 +7,7 @@ const concat = require('gulp-concat');
 const sourcemap = require('gulp-sourcemaps');
 
 module.exports = function scss_build() {
-    return src('./src/assets/scss/**/*.scss')
+    return src('./src/assets/scss/index.scss')
         .pipe(sourcemap.init({loadMaps: true}))
         .pipe(bulk())
         .pipe(sass.sync().on('error', sass.logError))

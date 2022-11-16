@@ -1,0 +1,32 @@
+@import 'variables';
+@import 'mixins/font-face';
+@import 'normalize.css';
+
+@include font-face('Open Sans', 'OpenSans-Regular', 400, 'normal');
+
+*, ::before, ::after {
+    box-sizing: border-box;
+}
+
+html {
+    margin: 0;
+    padding: 0;
+    font-size: 16px;
+    font-family: $font-face;
+    font-weight: 400;
+}
+
+body {
+    margin: 0;
+    padding: 0;
+}
+
+button:hover,
+a:hover,
+button:focus,
+a:focus {
+    cursor: pointer;
+}
+
+@import 'components/test';
+

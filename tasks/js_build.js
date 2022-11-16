@@ -5,7 +5,7 @@ const babel = require('gulp-babel');
 const sourcemap = require('gulp-sourcemaps');
 
 module.exports = function js_build() {
-    return src(['src/sections/**/*.js', 'src/assets/js/scripts.js'])
+    return src(['src/components/**/*.js', 'src/assets/js/scripts.js'])
         .pipe(sourcemap.init({loadMaps: true}))
         .pipe(uglify())
         .pipe(babel({presets: ['@babel/env']}))

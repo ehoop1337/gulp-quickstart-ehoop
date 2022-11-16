@@ -1,11 +1,15 @@
 <!DOCTYPE html>
 @@include('./components/_head.html', {
     "lang": "ru",
-    "title": "Document",
+    "title": "Title",
     "description": "Description",
     "keywords": "Keywords",
 })
-<div class="page-frame">
-    @@include('./sections/_section1.html')
+<div class="page page__contacts">
+    @@include('./components/_header.html')
+    <main class="page__content">
+        @@include('./components/_section.html')
+    </main>
+    @@include('./components/_footer.html')
 </div>
 @@include('./components/_scripts.html')
