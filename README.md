@@ -18,8 +18,8 @@
 |--------------|------------------------------------------------------------|
 | clean        | Cleaning the build folder                                  |
 | watch        | Tracking file changes                                      |
-| html_dev     | cleaning the build folder                                  |
-| html_build   | cleaning the build folder                                  |
+| html_dev     | Rendering html templates                                 |
+| html_build   | Rendering html templates                                  |
 | ttf_to_woff  | Convert from ttf format to woff                            |
 | ttf_to_woff2 | Convert from ttf format to woff2                           |
 | ttf_to_svg   | Convert from ttf format to svg                             |
